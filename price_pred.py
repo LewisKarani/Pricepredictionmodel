@@ -4,9 +4,9 @@ import streamlit as st
 from sklearn.ensemble import RandomForestRegressor
 
 #load the model
-file_path = r'C:\Users\HP\Documents\Models/rf_model.pkl'
-#model = joblib.load('lasso_model.pkl')
-model = joblib.load(file_path)
+
+model = joblib.load('rf_model.pkl')
+
 # name the app 
 st.title('Price prediction for the Amazon sales.')
 
